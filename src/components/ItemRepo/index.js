@@ -3,9 +3,9 @@ import { ItemContainer } from './styles';
 
 function ItemRepo({repo, handleRemoveRepo}) {
     
-    const handleRemoveRepo = () => {
-        handleRemoveRepo(repo.id)
-    }
+   // const handleRemoveRepo = () => {
+   //    handleRemoveRepo(repo.id)
+   // }
     
     return (
         <ItemContainer onClick={handleRemoveRepo}>
